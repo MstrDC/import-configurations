@@ -1,0 +1,29 @@
+{
+    "file-type": "csv",
+    "date-format": "d\\\/m\\\/Y",
+    "has-headers": false,
+    "delimiter": ";",
+    "apply-rules": true,
+    "specifics": [],
+    "import-account": 8,
+    "column-count": 5,
+    "column-roles": [
+        "date-transaction",
+        "description",
+        "amount",
+        "amount",
+        "currency-code"
+    ],
+    "column-do-mapping": [
+        false,
+        false,
+        false,
+        false,
+        true
+    ],
+    "column-mapping-config": {
+        "4": {
+            "EUR": 1
+        }
+    }
+}
